@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DMele</class>
+ <widget class="QWidget" name="DMele">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MyDrive</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resurse.qrc">
+    <normaloff>:/imagini/d.ico</normaloff>:/imagini/d.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(9, 9, 213, 255), stop:1 rgba(255, 255, 255, 255));</string>
+  </property>
+  <widget class="QListWidget" name="doc">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>551</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);
+background-color: rgb(0, 170, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Exit">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>540</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);
+background-color: rgb(0, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>160</y>
+     <width>134</width>
+     <height>247</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="Adauga">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>Adauga document</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="VeziDoc">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 170, 255);
+background-color: rgb(0, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>Deschide</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Folder">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 170, 255);
+background-color: rgb(0, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>Creaza folder</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Fav">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 170, 255);
+background-color: rgb(0, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>Seteaza ca favorit</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="MutaDoc">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 170, 255);
+background-color: rgb(0, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>Muta</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Status">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 170, 255);
+background-color: rgb(0, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Sterge">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 170, 255);
+background-color: rgb(0, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>Sterge</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="Back">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>500</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resurse.qrc"/>
+ </resources>
+ <connections/>
+</ui>
